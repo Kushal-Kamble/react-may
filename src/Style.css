@@ -1,0 +1,59 @@
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hero{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+.Hero1{
+    background-color: aqua;
+    color: red;
+}
+
+#hero2 {
+    background-color: chartreuse;
+    color: #000;
+}
+
+
+
+.App{
+    background-color: #fff;
+  
+
+    
+}
+
+.First {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+   
+}
+
+
+
+.movie{
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding-left: 10px;
+
+    font-weight: bold;
+    text-align: start;
+    width: 23%;
+    margin-top: 20px;
+}
+
+.movie img{
+    width: 100%;
+    height: 220px;
+    
+}
