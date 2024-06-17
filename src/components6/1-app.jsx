@@ -1,6 +1,5 @@
 
 import './App.css';
-import './Style.css';
 
 // bootstrap 
 
@@ -9,18 +8,18 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // bootstrap 
 
-// 7 components7
+// 6 components6
 
-import Usestateproject from './components7/Usestateproject';
+import Usestatehooks from './components6/Usestatehooks';
 
-// 7 components7
+// 6 components6
 
 function App() {
 
   return (
     <div className="App">
 
-      <Usestateproject/>
+      <Usestatehooks/>
       
     </div>
   );

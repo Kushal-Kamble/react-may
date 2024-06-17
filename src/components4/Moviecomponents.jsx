@@ -1,6 +1,6 @@
 
 
-const Moviecomponents = (props) => {
+const Moviecomponents = ({props}) => {
   return (
     <div className='movie'>
         <img src={props.img} alt="" />

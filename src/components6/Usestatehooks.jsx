@@ -1,25 +1,29 @@
 import React, { useState } from "react";
 
 const Usestatehooks = () => {
-  const [num, setNum] = useState(5); // 1 ye ek initial value hai
+  const [num, setNum] = useState(1); // 1 ye ek initial value hai
 
   // setNum ye ek function hai
 
-  // array destruring   
+  // array destruring
 
   function inc() {
-    setNum(num + 5);
+    setNum(num + 1);
   }
 
   function dec() {
-    setNum(num - 5);
+    if (num < 1) {
+      setNum(num);
+    }else
+    {
+      setNum(num - 1);
+    }
   }
 
   return (
     <div className="main">
       <div className="container mt-5">
         <div className="row justify-content-center">
-
           <div className="col-md-2">
             <button type="button" className="btn btn-success" onClick={inc}>
               Increment
@@ -31,7 +35,6 @@ const Usestatehooks = () => {
           </div>
 
           <div className="col-md-2">
-            
             <button type="button" className="btn btn-danger" onClick={dec}>
               Decrement
             </button>
@@ -46,7 +49,6 @@ export default Usestatehooks;
 
 // usestate hoook --->
 
-
 // object Destrucring
 
 // const obj = {name: 'Kushal', age: 25, place: 'sawangi'}
@@ -60,10 +62,7 @@ export default Usestatehooks;
 // place
 // 'sawangi'
 
-
-
 // ***************************
-
 
 //  arrays
 
