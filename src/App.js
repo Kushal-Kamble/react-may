@@ -11,7 +11,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // 7 components7
 
-import Usestateproject from './components7/Usestateproject';
+// import Usestateproject from './components7/Usestateproject';
+
+import Usestateprojectnew from './components7/Usestateprojectnew';
 
 // 7 components7
 
@@ -20,7 +22,9 @@ function App() {
   return (
     <div className="App">
 
-      <Usestateproject/>
+      {/* <Usestateproject/> */}
+
+      <Usestateprojectnew/>
       
     </div>
   );

@@ -1,3 +1,7 @@
+
+
+
+
 // 1st commond instalation  npm install @mui/material @emotion/react @emotion/styled
 
 //  2nd instalation  npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
@@ -18,24 +22,24 @@ import { useState } from "react";
 
 // import Fields from "./Fields";
 
-const Usestateproject = () => {
+const Usestateprojectnew = () => {
   // define useState
 
-  const [name, setName] = useState(""); // useState me value store krega
-  const [email, setEmail] = useState("");
+  const [form, setForm] = useState({}); // useState me value store krega
+ 
   const [data, setData] = useState([]); // ye ek array of object hoga
 
-  const addData = () => {
+  const addData = (e) => {
     // setData({name, email
     //      studentname: name,
     //      studentsemail: email
 
     // })
 
-    setData([...data, { name, email }]); // spread operator hota hai array ke liye aur string ke liye
+    setData([...data, form]); // spread operator hota hai array ke liye aur string ke liye
+    setForm(form);
 
-    setName(""); // ese form fill lrne ke baad input filed blank ho jayegi
-    setEmail(""); // ese form fill lrne ke baad input filed blank ho jayegi
+    
   };
 
 
@@ -62,8 +66,8 @@ const Usestateproject = () => {
           <Stack direction="row" spacing={2}>
             <div className="col-md-3">
               <TextField
-                value={name}
-                onChange={(event) => setName(event.target.value)} // ye function return krega jo input field me datails fill ki hai o aur use hum setName           ki help se set krenge
+                value={form.name}
+                onChange={(event) => setForm({...form, name: event.target.value})} // ye function return krega jo input field me datails fill ki hai o aur use hum setName           ki help se set krenge
                 id="outlined-basic"
                 label="name"
                 variant="outlined"
@@ -71,8 +75,8 @@ const Usestateproject = () => {
             </div>
             <div className="col-md-3 col-sm-3">
               <TextField
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
+                value={form.email}
+                onChange={(event) => setForm({...form, email: event.target.value})}
                 id="outlined-basic"
                 label="email"
                 variant="outlined"
@@ -133,8 +137,8 @@ const Usestateproject = () => {
                   <h4><Button onClick={() => removeItem(index)}
                     variant="contained"
                     startIcon={<DeleteIcon />}
-                    color="error"
-                  >
+                    color="error">
+                  
                     Delete
                   </Button></h4>
                   </div>
@@ -152,4 +156,5 @@ const Usestateproject = () => {
   );
 };
 
-export default Usestateproject;
+export default Usestateprojectnew;
+
