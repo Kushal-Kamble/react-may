@@ -66,3 +66,14 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* api base project */
+
+.apidata{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* api base project */
