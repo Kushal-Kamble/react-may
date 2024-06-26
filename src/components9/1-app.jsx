@@ -9,18 +9,16 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // bootstrap 
 
-// 10 components10
+// 8 components8
 
 
 
 // import Useeffecthook from './components8/Useeffecthook';
 
 
-// import Reacteouterdom from './components10/Reacteouterdom';
-// import Reactrouterdomnew from './components10/Reactrouterdomnew';
-import Reactrouterhooks from './components11/Reactrouterhooks';
+import Apiwithuseeffect from './components8/Apiwithuseeffect';
 
-// 10 components10
+// 8 components8
 
 function App() {
 
@@ -29,10 +27,9 @@ function App() {
 
       
 
-    
+      {/* <Useeffecthook/> */}
 
-      {/* <Reactrouterdomnew/> */}
-      <Reactrouterhooks/>
+      <Apiwithuseeffect/>
       
     </div>
   );

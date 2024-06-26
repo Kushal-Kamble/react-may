@@ -14,6 +14,7 @@ const Useeffecthook = () => {
   }, []); //  [state, state2] enitially call ho jab hamara components render ho  sirf ek baar page load hone ke baad render ho jayega
 
   // sabse pehle page render ho tab call ho jayega  
+  
 
   // render matlab jab bhi click ho tab call ho jaaye
 

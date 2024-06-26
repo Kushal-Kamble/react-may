@@ -17,8 +17,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 
 // import Reacteouterdom from './components10/Reacteouterdom';
-// import Reactrouterdomnew from './components10/Reactrouterdomnew';
-import Reactrouterhooks from './components11/Reactrouterhooks';
+import Reactrouterdomnew from './components10/Reactrouterdomnew';
 
 // 10 components10
 
@@ -31,8 +30,7 @@ function App() {
 
     
 
-      {/* <Reactrouterdomnew/> */}
-      <Reactrouterhooks/>
+      <Reactrouterdomnew/>
       
     </div>
   );

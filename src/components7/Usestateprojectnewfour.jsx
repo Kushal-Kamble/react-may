@@ -20,18 +20,16 @@ import AddIcon from "@mui/icons-material/Add";
 
 import { useState } from "react";
 
-// import Fields from "./Fields";
+import Fields from "./Fields";
 
-const Usestateprojectnew = () => {
-  
-
+const Usestateprojectnewfour = () => {
   // define useState
 
   const [form, setForm] = useState({}); // useState me value store krega
  
   const [data, setData] = useState([]); // ye ek array of object hoga
 
-  const addData = (e) => {
+  const addData = () => {
     // setData({name, email
     //      studentname: name,
     //      studentsemail: email
@@ -39,21 +37,27 @@ const Usestateprojectnew = () => {
     // })
 
     setData([...data, form]); // spread operator hota hai array ke liye aur string ke liye
-    setForm(form);
-
+    // setForm(form);
+    setForm({ name: "", email: "" });
     
   };
 
+  const handlePress = (event) => {
+   if(event.key == 'Enter') {
 
-  const removeItem = (index) => {
+    addData();
 
-    let arr = data;
+   }
+   console.log(event.key);
 
-    arr.splice(index, 1)
+   
+    
 
-    setData([...arr]);
 
   }
+
+
+  
 
   return (
     <div className="container">
@@ -68,6 +72,7 @@ const Usestateprojectnew = () => {
           <Stack direction="row" spacing={2}>
             <div className="col-md-3">
               <TextField
+              onKeyPress={(e) => handlePress(e)}
                 value={form.name}
                 onChange={(event) => setForm({...form, name: event.target.value})} // ye function return krega jo input field me datails fill ki hai o aur use hum setName           ki help se set krenge
                 id="outlined-basic"
@@ -77,6 +82,7 @@ const Usestateprojectnew = () => {
             </div>
             <div className="col-md-3 col-sm-3">
               <TextField
+              onKeyPress={(e) => handlePress(e)}
                 value={form.email}
                 onChange={(event) => setForm({...form, email: event.target.value})}
                 id="outlined-basic"
@@ -128,27 +134,9 @@ const Usestateprojectnew = () => {
 
             {data.map((element, index) => {
               return (
-                <div className="apidata" key={index}>
-                  <div className="col-md-3">
-                  <h4>{element.name}</h4>
-                  </div>
-                  <div className="col-md-3">
-                  <h4>{element.email}</h4>
-                  </div>
-                  <div className="col-md-3">
-                  <h4><Button onClick={() => removeItem(index)}
-                    variant="contained"
-                    startIcon={<DeleteIcon />}
-                    color="error">
-                  
-                    Delete
-                  </Button></h4>
-                  </div>
-                  
-                  
-                </div>
-                
-                // <Fields key={index} name={element.name} email={element.email} index={index} />
+              
+                <Fields key={index} name={element.name} email={element.email} index={element.index} data={data} setData={setData}/>
+
               );
             })}
           </div>
@@ -158,5 +146,5 @@ const Usestateprojectnew = () => {
   );
 };
 
-export default Usestateprojectnew;
+export default Usestateprojectnewfour;
 

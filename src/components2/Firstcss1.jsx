@@ -11,7 +11,6 @@ const Firstcss1 = () => {
       <p style={{color: "yellow", backgroundColor: "green", fontSize: "18px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque minus, iste iure doloremque facilis reprehenderit quidem consequuntur vitae, maiores explicabo, ipsam excepturi quas amet ex assumenda consequatur culpa laboriosam facere quia necessitatibus soluta adipisci nisi. Minima similique ea nemo ratione atque molestias quam voluptatibus magni doloribus. Numquam, amet illo.</p>
     </div>
 
-    
   )
 }
 

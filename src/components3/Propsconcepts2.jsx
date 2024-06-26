@@ -8,4 +8,4 @@ const Propsconcepts2 = (props) => {
   )
 }
 
-export default Propsconcepts2
+export default Propsconcepts2;
