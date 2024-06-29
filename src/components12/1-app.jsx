@@ -11,19 +11,19 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // bootstrap 
 
-// 14 components14
+// 12 components12
 
-import Usereducer from './components14/Usereducer';
+import Context from './components12/Context';
 
 
-// 14 components14
+// 12 components12
 
 function App() {
 
   return (
     <div className="App">
 
-      <Usereducer/>
+      <Context/>
       
     </div>
   );

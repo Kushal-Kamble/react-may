@@ -1,0 +1,21 @@
+.compa{
+    background-color: aqua;
+    padding: 5px;
+    margin: 8px;
+}
+.compb{
+    background-color: pink;
+    padding: 5px;
+    margin: 8px;
+}
+.compc{
+    background-color: red;
+    padding: 5px;
+    margin: 8px;
+    color: aliceblue;
+}
+.comp{
+    background-color: rgb(129, 231, 168);
+    padding: 5px;
+    margin: 8px;
+}
