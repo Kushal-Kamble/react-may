@@ -11,19 +11,19 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // bootstrap 
 
-// 16 components16
+// 15 components15
 
-import Usememohooks from './components16/Usememohooks';
+import Customhooks from './components15/Customhooks';
 
 
-// 16 components16
+// 15 components15
 
 function App() {
 
   return (
     <div className="App">
 
-      <Usememohooks/>
+      <Customhooks/>
       
     </div>
   );
