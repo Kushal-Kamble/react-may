@@ -3,3 +3,7 @@
 // useref not learn 
 
 // context api
+
+// usememo hook
+
+// usecall back
