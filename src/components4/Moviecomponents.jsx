@@ -6,9 +6,7 @@ const Moviecomponents = ({props}) => {
         <img src={props.img} alt="" />
         <p>{props.title}</p>
         <p>Year : {props.year}</p>
-      
-        
-      
+   
     </div>
   )
 }

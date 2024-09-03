@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Usestatehooks = () => {
+  
   const [num, setNum] = useState(1); // 1 ye ek initial value hai
 
   // setNum ye ek function hai

@@ -16,7 +16,6 @@ function App() {
       <Propsconcept1 name="Kushal 18 June - 1998" age={25} place="Pune" />
 
       <Propsconcept1 name="Salman 15 march - 2005" age={50} place="sawangi" />
-
       
     </div>
   );

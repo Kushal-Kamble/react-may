@@ -11,7 +11,7 @@ const Movieproject1 = () => {
           movies.map((element) => {
 
             return(
-                 <Moviecomponents
+                <Moviecomponents
                 title={element.Title}
                 year={element.Year}
                 img={element.Poster}
