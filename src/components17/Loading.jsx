@@ -48,11 +48,7 @@ const Loading = () => {
         pauseOnHover
         theme="light"
       />
-
-      {loader ? (
-        <Watch />
-      ) : (
-        data ? (
+      {loader ? ( <Watch /> ) : (data ? (
           <>
             <div className="row">
               <div className="col-md-2">

@@ -25,13 +25,8 @@ function App() {
 
   return (
     <div className="App">
-
-      
-
-    
-
       <Reactrouterdomnew/>
-      
+   
     </div>
   );
 }

@@ -140,12 +140,9 @@ const Usestateprojectnew = () => {
                     variant="contained"
                     startIcon={<DeleteIcon />}
                     color="error">
-                  
                     Delete
                   </Button></h4>
-                  </div>
-                  
-                  
+                  </div>  
                 </div>
                 
                 // <Fields key={index} name={element.name} email={element.email} index={index} />

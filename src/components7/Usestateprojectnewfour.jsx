@@ -1,7 +1,4 @@
 
-
-
-
 // 1st commond instalation  npm install @mui/material @emotion/react @emotion/styled
 
 //  2nd instalation  npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
@@ -49,15 +46,8 @@ const Usestateprojectnewfour = () => {
 
    }
    console.log(event.key);
-
-   
-    
-
-
   }
 
-
-  
 
   return (
     <div className="container">

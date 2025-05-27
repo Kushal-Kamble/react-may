@@ -34,6 +34,7 @@ const Apiwithuseeffect = () => {
 
         // promises return krne ke liye await ka use krte hai // ye tab tak weight kre jab tak hume data get nhi ho jata
 
+        
 
 
     }

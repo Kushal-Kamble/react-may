@@ -27,10 +27,6 @@ function App() {
   return (
     <div className="App">
 
-      
-
-    
-
       {/* <Reactrouterdomnew/> */}
       <Reactrouterhooks/>
       

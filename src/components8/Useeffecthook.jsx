@@ -26,8 +26,6 @@ const Useeffecthook = () => {
 
   return (
     <div>
-      
-
       <div className="container">
       <Projectofeffecthook />
       <button onClick={() => setState(state + 1)} class="btn btn-primary me-3 mt-5">click me {state}</button>
