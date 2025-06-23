@@ -86,7 +86,7 @@ const Studentapidata = () => {
                     ) : (
                       <tr key={i}>
                         <td>{subject.subject_name}</td>
-                        <td colSpan="3">No assignments available</td>
+                        {/* <td colSpan="3">No assignments available</td> */}
                       </tr>
                     )}
                   </React.Fragment>
